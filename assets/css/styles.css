@@ -2,3 +2,27 @@ body {
     text-align: center;
     background-color: azure;
 }
+nav#menu {
+    background-color: lightgrey;
+}
+#main-menu {
+    padding: 25px 15px;
+    background-color: bisque;
+}
+#main-menu li {
+    list-style-type: none;
+    float: left;
+    margin-right: 5px;
+}
+#main-menu li a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:azure;
+    border: 1px solid lightslategray;
+}
